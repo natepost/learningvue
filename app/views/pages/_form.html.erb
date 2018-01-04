@@ -1,0 +1,9 @@
+<%= form_for @page do |p| %>
+
+  <div class="form-group">
+    <%= p.text_field :name, placeholder: "Name", class: "form-control" %>
+  </div>
+  <div class="actions">
+    <%= p.submit %>
+  </div>
+<% end %>
